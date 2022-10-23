@@ -1,0 +1,94 @@
+body, html{
+    height: 100%;
+    padding: 0;
+}
+.body-login{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper
+{
+    margin: 0%;
+    padding: 0%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.imgbackground{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    left:0;
+    top:0;
+
+}
+
+.form-box{
+    width:  10px;
+    padding: 180Px;
+    background: #dacece;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-title{
+
+    color: rgb(7, 7, 7);
+    text-transform:  uppercase;
+    font-weight: 500;
+
+
+}
+
+.login{
+   top: 500px;
+   left: 50%;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 25px;
+}
+
+.form-box input[type ="text"],
+.form-box input[type="password"],
+.form-box input[type= "submit"]{
+
+    border: 0;
+    background: none;
+    display:  block;
+    margin:  20px auto;
+    padding:  14px 10px;
+    text-align:  center;
+    border: 2px solid #0d9a48;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+
+.form-box input[type ="text"]:focus
+.form-box input[type="password"]:focus
+{
+width:  280px;
+border-color: #ffffff; 
+}
+
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: #0d9a48;
+}
+
+
+ 
+
